@@ -42,6 +42,7 @@ The template comes with a preconfigured [`.travis.yml`](https://github.com/sn99/
 - Update [LICENSE-MIT](https://github.com/sn99/wasm-template-rust/blob/master/LICENSE-MIT) and [LICENSE-APACHE](https://github.com/sn99/wasm-template-rust/blob/master/LICENSE-APACHE) to reflect your name and year
 - Read [Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html) 
 - Also read [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/tutorials/hybrid-applications-with-webpack/index.html)
+- Also see [wasm-conway](https://github.com/sn99/wasm-conway) made using [Rust 🦀 and WebAssembly 🕸](https://rustwasm.github.io/docs/book/) hosted at [gh-pages](https://sn99.github.io/wasm-conway/)
 
 ## License
 
