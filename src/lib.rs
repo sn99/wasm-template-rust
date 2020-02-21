@@ -18,7 +18,7 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-game-of-life!");
+    alert("Hello, wasm-template-rust!");
 }
 
 #[cfg(test)]
