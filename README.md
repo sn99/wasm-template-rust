@@ -21,7 +21,7 @@
 Into : 
 ```json 
   "dependencies": {
-    "YOUR-PROJECT-NAME-SAME-AS-IN-Cargo.toml": "file:../pkg"
+    "YOUR-PROJECT-NAME-SAME-AS-IN-CARGO.toml": "file:../pkg"
   },
 ``` 
 - Run `wasm-pack build` inside your project dictionary
