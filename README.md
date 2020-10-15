@@ -1,4 +1,4 @@
-# Wasm template for Rust no npm-deploy
+# Wasm template for Rust hosting without npm-deploy on github pages
 
 [![Build Status](https://travis-ci.com/sn99/wasm-template-rust.svg?branch=master)](https://travis-ci.com/sn99/wasm-template-rust)
 
