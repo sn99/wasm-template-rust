@@ -1,6 +1,8 @@
-# Wasm template for Rust hosting without npm-deploy on github pages
+# Wasm template for Rust hosting without npm-deploy on github pages using Travis script
 
 [![Build Status](https://travis-ci.com/sn99/wasm-template-rust.svg?branch=master)](https://travis-ci.com/sn99/wasm-template-rust)
+
+It automatically hosts you wasm projects on gh-pages using a travis script on the latest commit.
 
 ## Requirements
 - [`rust-toolchain`](https://www.rust-lang.org/tools/install)
