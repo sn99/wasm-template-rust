@@ -1,6 +1,8 @@
 # Wasm template for Rust hosting without npm-deploy on github pages using Travis script
 
-Last updated: 10th-March-2023
+**Featured on [This Week in Rust 327](https://this-week-in-rust.org/blog/2020/02/25/this-week-in-rust-327/)**
+
+Last updated: 29th-September-2023
 
 [![Build Status](https://app.travis-ci.com/sn99/wasm-template-rust.svg?branch=master)](https://app.travis-ci.com/sn99/wasm-template-rust)
 
