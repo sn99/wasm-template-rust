@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - name: Build (host)
+        run: cargo build --verbose
+      - name: Test (host)
+        run: cargo test --verbose
+      - name: Build (wasm32)
+        run: cargo build --target wasm32-unknown-unknown --verbose
